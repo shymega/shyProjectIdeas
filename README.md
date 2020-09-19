@@ -13,14 +13,18 @@
   - Acts as a mailing list proxy to things like Discourse, etc
 
 - Rust NNTP alternative to Leafnode
+    - JSON NNTP
 
 - Rust mailing list (Mailman, Discourse, etc) bidirectional
-  propagation to remote NNTP server. Self-hosted
+  propagation to remote NNTP server. Self-hosted.
 
 - Rust IMAP, SMTP, LMTP email server
 
 - Misc programs.
   * 20:20:20 rule enforcement
+    - systemd timer/cron
+    - 20 feet away, 20 seconds, every 20 minutes.
+    - lock screen?
 
 - Minecraft clone in Rust
   * DB backend:
@@ -39,13 +43,13 @@
   * Similar to Apache Camel
 
 - Rust Window Manager
-  - Modular support for X11, Wayland (X11 - legacy)
+  - Modular support for X11, Wayland.
   - Embedded Lisp scripting
   - Client/server IPC
 
-- Authorisation layer/GUI for Git, Go
+- Authorisation layer/GUI for Git. (Rust).
 
-- Filter for MTA in Go (X-Delay)
+- Filter for MTA in Rust. (X-Delay)
 
 - Java-based CCTV system
   - Support remote agent for USB camera
@@ -57,13 +61,5 @@
 * Rust Doom port.
   - Multiplayer
   - Compat w/ ZDOOM
-  - Compatible with Brutual Doom, etc
+  - Compatible with Brutal Doom, etc
   - Fast load time
-
-* JMAP proxy server
-
-* JSON SMTP
-* JSON IMAP
-* JSON Calendar
-* JSON Contacts
-* JSON NNTP
